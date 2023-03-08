@@ -1,5 +1,5 @@
 {
-	"name": "mikasabxt",
+	"name": "chipibot_",
 	"version": "1.0.0",
 	"description": "Twitch Node.js Chatbot",
 	"main": "index.js",
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/mikasab/mikasabxt.git"
+		"url": "git://github.com/mikasab/chipibot_.git"
 	},
 	"keywords": [
 		"Twitch",
@@ -18,9 +18,9 @@
 	"author": "Lxght",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/mikasab/mikasabxt/issues"
+		"url": "https://github.com/mikasab/chipibot_/issues"
 	},
-	"home": "https://github.com/mikasab/mikasabxt#readme",
+	"home": "https://github.com/mikasab/chipibot_#readme",
 	"dependencies": {
 		"dotenv": "^16.0.3",
 		"tmi.js": "^1.8.5"

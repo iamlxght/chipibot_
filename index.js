@@ -14,7 +14,7 @@ const client = new tmi.Client({
         username: `${process.env.TWITCH_USERNAME}`,
         password: `oauth:${process.env.TWITCH_OAUTH}`
     },
-    channels: [`${process.env.TWITCH_CHANNEL}`,`${process.env.TWITCH_CHANNEL2}`,`${process.env.TWITCH_CHANNEL3}`]
+    channels: [`${process.env.TWITCH_CHANNEL}`]
 });
 
 client.connect().catch(console.error);
@@ -23,11 +23,8 @@ client.on('message', (channel, tags, message, self) => {
     if (self) return;
 
     switch (message.toLocaleLowerCase()) {
-        case 'laito':
-            client.say(channel, `El Laito`);
-        break;
-        case 'mikasa':
-            client.say(channel, `Hola, HyliaHale soy bot de Lxght. Y me dijo que tu eres una shingona, ya habrá más oportunidades.`)
+        case 'hylia':
+            client.say(channel, `Mi mami :3`);
         break;
     }   
 });
