@@ -26,5 +26,8 @@ client.on('message', (channel, tags, message, self) => {
         case 'hylia':
             client.say(channel, `Mi mami :3`);
         break;
+        case 'hola':
+            client.say(channel, `mundo`);
+        break;
     }   
 });
